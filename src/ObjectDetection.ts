@@ -1,3 +1,11 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable eslint-comments/no-unused-disable */
+/* eslint-disable prettier/prettier */
+/* eslint-disable quotes */
+// eslint-disable-next-line prettier/prettier
+// eslint-disable-next-line prettier/prettier
+/* eslint-disable no-undef */
+/* eslint-disable prettier/prettier */
 import { Alert } from "react-native";
 import { Image, media, Module, Tensor, torch, torchvision } from "react-native-pytorch-core";
 

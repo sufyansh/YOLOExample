@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import * as React from 'react';
 import {
   Camera,
@@ -16,13 +17,13 @@ import { detectObjects } from './ObjectDetection';
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
 
 const MODEL =
-  'https://github.com/raedle/test-some/releases/download/v0.0.2.0/yolov5s.torchscript.ptl';
+'https://lvreact.roadlogica.com/best.torchscript.ptl';
 
 function ObjectDetection() {
   // Insets to respect notches and menus to safely render content
   const insets = useSafeAreaInsets();
   // Load model from a given url.
-  const { isReady, model } = useModel(MODEL)
+  const { isReady, model } = useModel(MODEL);
   // Indicates an inference in-flight
   const [isProcessing, setIsProcessing] = React.useState(false);
   const context2DRef = React.useRef<CanvasRenderingContext2D | null>(null);
